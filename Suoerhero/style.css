@@ -1,0 +1,212 @@
+
+		body{
+		max-width:1000px;
+		margin:auto;
+		font-family: Roboto;
+		font-size:16px;
+                color:yellow;
+                background-color:black;
+}
+
+@media (min-width:320px) {  .container {
+                                width: 320px;
+                            } }
+@media (min-width:481px) {   .container {
+                                 width: 481px;
+                             } }
+@media (min-width:641px) {   .container {
+                                 width: 641px;
+                             } }
+@media (min-width:961px) {   .container {
+                                 width: 961px;
+                             } }
+@media (min-width:1000px) {  .container {
+                                 width: 1000px;
+                             } }
+nav { 
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+    overflow: hidden;
+    
+} 
+
+li> a
+{ 
+    display: block; 
+    color: yellow; 
+    padding: 14px 16px; 
+    text-decoration: none; 
+    float: right; 
+}
+
+.logo{
+    float: left;
+    height: 50px;
+    font-size: 18px;
+    line-height: 20px;
+    
+}
+
+h4{
+	font: italic small-caps bolder 28px arial, sans-serif;
+}
+div{
+	margin-top: 5px;
+	padding: 20px;
+}
+
+
+.list_box{
+
+    width:100%;
+
+    overflow:hidden;
+
+}
+.box_r{
+    float: right;
+    padding:0px;
+    border:none;
+    display: inline-block;
+    width: 50%;
+}
+
+.box_l{
+    float: left;
+     padding:0px;
+    border:none;
+    display: inline-block;
+    width: 50%;
+}
+#content {
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 450px;
+    padding:30px 20px;
+    margin-top:35px;
+     margin-bottom:30px;
+    font-family: Roboto;
+		font-size:12px;
+                color:yellow;
+}
+                
+#header {
+    padding: 5px 0px;
+    color:yellow;
+    text-align:center;
+    margin: auto;
+    border-bottom: 1px solid;
+    
+}
+
+#image{
+    float:left;
+    padding:0px 20px 20px 20px;
+       
+}
+#background_image {    
+    height: 350px;
+    padding-top: 50px; 
+    background: url(./img/bat_cover.jpg);
+    color: #fff;
+    margin: auto;
+    margin-top: 105px;
+}
+@media (max-width:961px){
+    #background_image {
+        background: url(./img/bat_cover_md.jpg);
+    }
+}
+#identity{
+    overflow:auto;
+    float:left;
+}
+.thumbnail {
+    display: inline-block;
+
+    height: 500px;
+
+    padding: 2px;
+
+    margin-bottom: 20px;
+
+    background-color: black;
+
+    border: 1px solid #a4a4a4;
+
+    text-align: center;
+
+    color: #666;
+
+    margin: 30px;
+
+}
+@media (max-width:1000px){
+    .thumbnail{
+        margin:30px;
+    }
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,td {
+    padding:15px;
+    border: 1px solid #a4a4a4;
+    height: 30px;
+}
+
+th {
+    text-align: left;
+    background-color: grey;
+}
+input {
+
+    padding: 14px 70px;
+
+    font-size: 15px;
+
+    margin-bottom: 30px;
+text-decoration: none;
+}
+
+#subscribe {
+
+    border: none;
+
+    background-color: #26211f;
+
+    color: white;
+
+    font-size: 16px;
+
+    margin: 4px -4px;
+
+    padding: 16px 40px;
+    text-decoration: none;
+}
+.navbar-header{ 
+    padding: 5px 2px;
+    color:yellow;
+    text-align:center;
+    margin: auto;
+        }
+#myNavbar{
+    padding: 2px 0spx;
+    color:yellow;
+    border-bottom: 2px solid;
+    background-color:black;
+   margin-top: 0px;
+    
+}
+
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 10, 2018, 4:02:12 PM
+    Author     : lenovo
+*/
+
